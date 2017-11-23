@@ -7,11 +7,22 @@
   "author": "Chathan Driehuys <chathan@knowmetools.com>",
   "license": "MIT",
   "scripts": {
-    "build": "webpack --progress --colors"
+    "build": "webpack --progress --colors",
+    "storybook": "start-storybook -p 8000 -c .storybook"
   },
   "devDependencies": {
+    "@storybook/react": "^3.2.16",
+    "@types/react": "^16.0.25",
+    "@types/react-dom": "^16.0.3",
     "awesome-typescript-loader": "^3.4.0",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "styled-components": "^2.2.3",
     "typescript": "^2.6.1",
     "webpack": "^3.8.1"
+  },
+  "peerDependencies": {
+    "react": "^16.1.1",
+    "styled-components": "^2.2.3"
   }
 }
