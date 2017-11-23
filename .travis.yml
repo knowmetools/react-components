@@ -3,4 +3,8 @@ node_js: node
 
 cache: yarn
 
-script: yarn run lint
+script:
+  - yarn run lint
+  - yarn test
+
+after_success: yarn run codecov

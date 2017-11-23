@@ -1,5 +1,8 @@
 {
   "extends": ["tslint-config-airbnb", "tslint-react"],
+  "linterOptions": {
+    "exclude": ["./node_modules/**/*"]
+  },
   "rules": {
     "import-name": [
         true,
@@ -7,6 +10,7 @@
             "styledComponents": "styled"
         }
     ],
+    "quotemark": [true, "single", "avoid-escape", "avoid-template"],
     "variable-name": [true, "ban-keywords", "check-format", "allow-pascal-case"]
   }
 }

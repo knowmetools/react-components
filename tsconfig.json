@@ -1,11 +1,15 @@
 {
   "compilerOptions": {
-    "target": "es5",
     "declaration": true,
+    "declarationDir": "./build",
+    "jsx": "react",
     "moduleResolution": "node",
-    "declarationDir": "./build"
+    "noImplicitAny": true,
+    "target": "es2015"
   },
-  "include": [
-    "./src"
+  "exclude": [
+    "build",
+    "node_modules",
+    "**/*.spec.(ts|tsx|js|jsx)"
   ]
 }
