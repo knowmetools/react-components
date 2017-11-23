@@ -1,0 +1,12 @@
+# OS Files
+.DS_STORE
+Thumbs.db
+
+# Distributed or Built Files
+build/
+dist/
+node_modules/
+
+# Sublime Text Project Files
+*.sublime-project
+*.sublime-workspace
