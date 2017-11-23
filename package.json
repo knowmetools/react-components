@@ -1,0 +1,15 @@
+{
+  "name": "@knowmetools/react-components",
+  "version": "0.0.0",
+  "description": "A collection of reusable React components for Know Me's web apps.",
+  "main": "build/index.js",
+  "repository": "https://github.com/knowmetools/react-components",
+  "author": "Chathan Driehuys <chathan@knowmetools.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --progress --colors"
+  },
+  "devDependencies": {
+    "webpack": "^3.8.1"
+  }
+}
