@@ -8,6 +8,7 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack --progress --colors",
+    "lint": "tslint -p . && eslint .",
     "storybook": "start-storybook -p 8000 -c .storybook"
   },
   "devDependencies": {
@@ -15,9 +16,17 @@
     "@types/react": "^16.0.25",
     "@types/react-dom": "^16.0.3",
     "awesome-typescript-loader": "^3.4.0",
+    "eslint": "^4.11.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.5.1",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
     "styled-components": "^2.2.3",
+    "tslint": "^5.8.0",
+    "tslint-config-airbnb": "^5.4.2",
+    "tslint-react": "^3.2.0",
     "typescript": "^2.6.1",
     "webpack": "^3.8.1"
   },
