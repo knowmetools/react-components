@@ -15,6 +15,9 @@
   },
   "jest": {
     "collectCoverage": true,
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}"
+    ],
     "coverageDirectory": "./coverage/",
     "coveragePathIgnorePatterns": [
       "/node_modules/",
@@ -25,7 +28,8 @@
       "tsx",
       "js"
     ],
-    "setupTestFrameworkScriptFile": "./testSetup.ts",
+    "setupFiles": ["<rootDir>/testShims.js", "<rootDir>/testSetup.ts"],
+    "setupTestFrameworkScriptFile": "<rootDir>/setupTestFramework.ts",
     "testRegex": "(/__test__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
     "transform": {
       ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"

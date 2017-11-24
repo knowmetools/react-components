@@ -3,7 +3,7 @@ import * as React from 'react';
 
 import { default as defaultTheme, ITheme } from '../../theme';
 
-import Text from '../Text';
+import { Text } from '../';
 
 
 const setup = ({ theme = defaultTheme } = {}) => {
