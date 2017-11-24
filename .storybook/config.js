@@ -7,6 +7,7 @@ import theme from '../src/theme';
 
 function loadStories() {
   require('../stories/Typography.tsx');
+  require('../stories/Container.tsx');
 }
 
 

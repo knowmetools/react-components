@@ -10,7 +10,13 @@
             "styledComponents": "styled"
         }
     ],
-    "quotemark": [true, "single", "avoid-escape", "avoid-template"],
+    "quotemark": [
+      true,
+      "single",
+      "avoid-escape",
+      "avoid-template",
+      "jsx-double"
+    ],
     "variable-name": [true, "ban-keywords", "check-format", "allow-pascal-case"]
   }
 }
